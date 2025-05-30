@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Corp_SideNav" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-toc-path="" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" /><title>Aggressor Script</title>
+        <meta charset="utf-8" />
+        <!-- this next line usd to be here, but the Component_Favicon.flskn is used to add the favicon -->
+        <!-- 
+		<link rel="shortcut icon" href="../Images/favicon-cyan.png" type="image/png" />
+		-->
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/stylesheets/styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/stylesheets/tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/stylesheets/mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/stylesheets/print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../resources/tablestyles/bordered_separators.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link href="../resources/stylesheets/corp_main.css" rel="stylesheet" type="text/css" />
+        <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../resources/templatepages/modernizr.js">
+        </script>
+        <script>/* <![CDATA[ */
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-57226932-1', 'auto');
+			ga('send', 'pageview');
+
+		/* ]]> */</script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" role="banner" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="welcome_main.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <div class="content">
+                                        <div id="contentBody">
+                                            <div class="row collapse">
+                                                <div class="nocontent">
+                                                    <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                    </div>
+                                                </div>
+                                                <div role="main" id="mc-main-content">
+                                                    <h1>Aggressor Script</h1>
+                                                    <h2>What is Aggressor Script?</h2>
+                                                    <p>Aggressor Script is the scripting language built into <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span>, version 3.0, and later. Aggressor Script allows you to modify and extend the <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span> client.</p>
+                                                    <h3>History</h3>
+                                                    <p>Aggressor Script is the spiritual successor to Cortana, the open source scripting engine in Armitage. Cortana was made possible by a contract through DARPA's Cyber Fast Track program. Cortana allows its users to extend Armitage and control the Metasploit Framework and its features through Armitage's team server. <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span> 3.0 is a ground-up rewrite of <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span> without Armitage as a foundation. This change afforded an opportunity to revisit <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span>'s scripting and build something around <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span>'s features. The result of this work is Aggressor Script.</p>
+                                                    <p>Aggressor Script is a scripting language for red team operations and adversary simulations inspired by scriptable IRC clients and bots. Its purpose is two-fold. You may create long running bots that simulate virtual red team members, hacking side-by-side with you. You may also use it to extend and modify the <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span> client to your needs.</p>
+                                                    <h3>Status</h3>
+                                                    <p>Aggressor Script is part of <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span> 3.0's foundation. Most popup menus and the presentation of events in <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span> 3.0 are managed by the Aggressor Script engine. That said, Aggressor Script is still in its infancy. Strategic Cyber LLC has yet to build APIs for most of <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span>'s features. Expect to see Aggressor Script evolve over time. This documentation is also a work in progress.</p>
+                                                    <h2>How to Load Scripts</h2>
+                                                    <p>Aggressor Script is built into the <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span> client. To permanently load a script, go to <strong><span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span> -&gt; Script Manager</strong> and press Load. </p>
+                                                    <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../images/aggressor-scripts/as_scriptloader.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgthumbnail" data-mc-width="817" data-mc-height="232" src="../images/aggressor-scripts/as_scriptloader_thumb_300_0.png" alt="" tabindex="" /></a>
+                                                    </p>
+                                                    <p class="figurecount_withhout-div" data-mc-autonum="&lt;b&gt;figure 69 - &lt;/b&gt;"><span class="autonumber"><span><b>figure 69 - </b></span></span><span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span> Script Loader</p>
+                                                    <h2>The Script Console</h2>
+                                                    <p><span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span> provides a console to control and interact with your scripts. Through the console you may trace, profile, debug, and manage your scripts. The Aggressor Script console is available via <strong>View -&gt; Script Console</strong>.</p>
+                                                    <p>The following commands are available in the console:</p>
+                                                    <table class="TableStyle-bordered_separators" cellspacing="0" style="mc-table-style: url('../resources/tablestyles/bordered_separators.css');">
+                                                        <col class="TableStyle-bordered_separators-Column-Column1" />
+                                                        <col class="TableStyle-bordered_separators-Column-Column1" />
+                                                        <col class="TableStyle-bordered_separators-Column-Column1" />
+                                                        <thead>
+                                                            <tr class="TableStyle-bordered_separators-Head-Header1">
+                                                                <th class="TableStyle-bordered_separators-HeadE-Column1-Header1">Command</th>
+                                                                <th class="TableStyle-bordered_separators-HeadE-Column1-Header1">Arguments</th>
+                                                                <th class="TableStyle-bordered_separators-HeadD-Column1-Header1">What it does</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr class="TableStyle-bordered_separators-Body-Body1">
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body1">?</td>
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body1">"*foo*" iswm "foobar"</td>
+                                                                <td class="TableStyle-bordered_separators-BodyD-Column1-Body1">evaluate a sleep predicate and print result</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-bordered_separators-Body-Body2">
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body2">e</td>
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body2">println("foo");</td>
+                                                                <td class="TableStyle-bordered_separators-BodyD-Column1-Body2">evaluate a sleep statement</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-bordered_separators-Body-Body1">
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body1">help</td>
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body1"> </td>
+                                                                <td class="TableStyle-bordered_separators-BodyD-Column1-Body1">list all of the commands available</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-bordered_separators-Body-Body2">
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body2">load</td>
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body2">/path/to/script.cna</td>
+                                                                <td class="TableStyle-bordered_separators-BodyD-Column1-Body2">load an Aggressor Script script</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-bordered_separators-Body-Body1">
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body1">ls</td>
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body1"> </td>
+                                                                <td class="TableStyle-bordered_separators-BodyD-Column1-Body1">list all of the scripts loaded</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-bordered_separators-Body-Body2">
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body2">proff</td>
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body2">script.cna</td>
+                                                                <td class="TableStyle-bordered_separators-BodyD-Column1-Body2">disable the Sleep profiler for the script</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-bordered_separators-Body-Body1">
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body1">profile</td>
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body1">script.cna</td>
+                                                                <td class="TableStyle-bordered_separators-BodyD-Column1-Body1">dumps performance statistics for the script.</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-bordered_separators-Body-Body2">
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body2">pron</td>
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body2">script.cna</td>
+                                                                <td class="TableStyle-bordered_separators-BodyD-Column1-Body2">enables the Sleep profiler for the script</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-bordered_separators-Body-Body1">
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body1">reload</td>
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body1">script.cna</td>
+                                                                <td class="TableStyle-bordered_separators-BodyD-Column1-Body1">reloads the script</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-bordered_separators-Body-Body2">
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body2">troff</td>
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body2">script.cna</td>
+                                                                <td class="TableStyle-bordered_separators-BodyD-Column1-Body2">disable function trace for the script</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-bordered_separators-Body-Body1">
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body1">tron</td>
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body1">script.cna</td>
+                                                                <td class="TableStyle-bordered_separators-BodyD-Column1-Body1">enable function trace for the script</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-bordered_separators-Body-Body2">
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body2">unload</td>
+                                                                <td class="TableStyle-bordered_separators-BodyE-Column1-Body2">script.cna</td>
+                                                                <td class="TableStyle-bordered_separators-BodyD-Column1-Body2">unload the script</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-bordered_separators-Body-Body1">
+                                                                <td class="TableStyle-bordered_separators-BodyB-Column1-Body1">x</td>
+                                                                <td class="TableStyle-bordered_separators-BodyB-Column1-Body1">2 + 2</td>
+                                                                <td class="TableStyle-bordered_separators-BodyA-Column1-Body1">evaluate a sleep expression and print result</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <p class="print-copyrightText">&#160;</p>
+                                                    <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../images/aggressor-scripts/as_console.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgthumbnail" data-mc-width="814" data-mc-height="354" src="../images/aggressor-scripts/as_console_thumb_300_0.png" alt="" tabindex="" /></a>
+                                                    </p>
+                                                    <p width="800px" class="figurecount_withhout-div" data-mc-autonum="&lt;b&gt;figure 70 - &lt;/b&gt;"><span class="autonumber"><span><b>figure 70 - </b></span></span>Interacting with the script console</p>
+                                                    <h2>Headless <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span></h2>
+                                                    <p>You may use Aggressor Scripts without the <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span> GUI. The <strong>agscript</strong> program (included with the <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span> Linux package) runs the headless <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span> client. The agscript program requires four arguments:</p><pre class="border" style="font-size: 10pt;">./agscript [host] [port] [user] [password]</pre>
+                                                    <p>These arguments connect the headless <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span> client to the team server you specify. The headless <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span> client presents the Aggressor Script console.</p>
+                                                    <p>You may use agscript to immediately connect to a team server and run a script of your choosing. Use:</p><pre class="border" style="font-size: 10pt;">./agscript [host] [port] [user] [password] [/path/to/script.cna]</pre>
+                                                    <p>This command will connect the headless <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span> client to a team server, load your script, and run it. The headless <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span> client will run your script before it synchronizes with the team server. Use <strong>on ready</strong> to wait for the headless <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span> client to finish the data synchronization step.</p><pre class="border" xml:space="preserve" style="font-size: 10pt;">on ready {
+   println("Hello World! I am synchronized!");
+   closeClient();
+}</pre>
+                                                    <h2>A Quick Sleep Introduction</h2>
+                                                    <p>Aggressor Script builds on Raphael Mudge's Sleep Scripting Language. The Sleep manual is available at <a href="http://sleep.dashnine.org/manual" target="_blank">http://sleep.dashnine.org/manual</a></p>
+                                                    <p>Aggressor Script will do anything that Sleep does such as:</p>
+                                                    <ul>
+                                                        <li>
+                                                            <p>Sleep's syntax, operators, and idioms are similar to the Perl scripting language. There is one major difference that catches new programmers. Sleep requires whitespace between operators and their terms. The following code is not valid:</p><pre class="border" style="font-size: 10pt;">$x=1+2; # this will not parse!!</pre>
+                                                            <p>This statement is valid though:</p><pre class="border" style="font-size: 10pt;">$x = 1 + 2;</pre>
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li>
+                                                            <p>Sleep variables are called scalars and scalars hold strings, numbers in various formats, Java object references, functions, arrays, and dictionaries. Here are several assignments in Sleep:</p><pre class="border" style="font-size: 10pt;">$x = "Hello World";
+$y = 3;
+$z = @(1, 2, 3, "four");
+$a = %(a =&gt; "apple", b =&gt; "bat", c =&gt; "awesome language", d =&gt; 4);</pre>
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li>Arrays and dictionaries are created with the @ and % functions. Arrays and dictionaries may reference other arrays and dictionaries. Arrays and dictionaries may even reference themselves.</li>
+                                                        <li>Comments begin with a # and go until the end of the line.</li>
+                                                        <li>
+                                                            <p>Sleep interpolates double-quoted strings. This means that any white-space separated token beginning with a $ sign is replaced with its value. The special variable $+ concatenates an interpolated string with another value.</p><pre class="border" style="font-size: 10pt;">println("\$a is: $a and \n\$x joined with \$y is: $x $+ $y");</pre>
+                                                            <p>This will print out:</p><pre class="border" style="font-size: 10pt;">$a is: %(d =&gt; 4, b =&gt; 'bat', c =&gt; 'awesome language', a =&gt; 'apple') and 
+$x joined with $y is: Hello World3</pre>
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li>There's a function called &amp;warn. It works like &amp;println, except it includes the current script name and a line number too. This is a great function to debug code with.</li>
+                                                        <li>
+                                                            <p>Sleep functions are declared with the sub keyword. Arguments to functions are labeled $1, $2, all the way up to $n. Functions will accept any number of arguments. The variable @_ is an array containing all of the arguments too. Changes to $1, $2, etc. will alter the contents of @_.</p><pre class="border" xml:space="preserve" style="font-size: 10pt;">sub addTwoValues {
+   println($1 + $2);
+}
+ 
+addTwoValues("3", 55.0);</pre>
+                                                            <p>This script prints out: </p><pre class="border" style="font-size: 10pt;">58.0</pre>
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li>
+                                                            <p>In Sleep, a function is a first-class type like any other object. Here are a few things that you may see:</p><pre class="border" xml:space="preserve" style="font-size: 10pt;">$addf = &amp;addTwoValues;</pre>
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li>
+                                                            <p>The $addf variable now references the &amp;addTwoValues function. To call a function enclosed in a variable, use:</p><pre class="border" style="font-size: 10pt;">[$addf : "3", 55.0];</pre>
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li>
+                                                            <p>This bracket notation is also used to manipulate Java objects. I recommend reading the Sleep manual if you're interested in learning more about this. The following statements are equivalent and they do the same thing:</p><pre class="border" xml:space="preserve" style="font-size: 10pt;">[$addf : "3", 55.0];
+[&amp;addTwoValues : "3", 55.0];
+[{ println($1 + $2); } : "3", 55.0];
+addTwoValues("3", 55.0);</pre>
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li>Sleep has three variable scopes: global, closure-specific, and local. The Sleep manual covers this in more detail. If you see local('$x $y $z') in an example, it means that $x, $y, and $z are local to the current function and their values will disappear when the function returns. Sleep uses lexical scoping for its variables. </li>
+                                                    </ul>
+                                                    <p>Sleep has all of the other basic constructs you'd expect in a scripting language. You should read the manual to learn more about it.</p>
+                                                    <h2>Interacting with the User</h2>
+                                                    <p>Aggressor Script displays output using Sleep's &amp;println,  &amp;printAll, &amp;writeb, and &amp;warn functions. These functions display output to the script console.</p>
+                                                    <p>Scripts may register commands as well. These commands allow scripts to receive a trigger from the user through the console. Use the <strong>command</strong> keyword to register a command:</p><pre class="border" xml:space="preserve" style="font-size: 10pt;">command foo{
+   println("Hello $1"); 
+}</pre>
+                                                    <p>This code snippet registers the command foo. The script console automatically parses the arguments to a command and splits them by whitespace into tokens for you. $1 is the first token, $2 is the second token, and so on. Typically, tokens are separated by spaces but users may use "double quotes" to create a token with spaces. If this parsing is disruptive to what you'd like to do with the input, use $0 to access the raw text passed to the command.</p>
+                                                    <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../images/aggressor-scripts/as_command.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgthumbnail" data-mc-width="805" data-mc-height="193" src="../images/aggressor-scripts/as_command_thumb_300_0.png" alt="" tabindex="" /></a>
+                                                    </p>
+                                                    <p width="800px" class="figurecount_withhout-div" data-mc-autonum="&lt;b&gt;figure 71 - &lt;/b&gt;"><span class="autonumber"><span><b>figure 71 - </b></span></span>Command Output</p>
+                                                    <h3>Colors</h3>
+                                                    <p>You may add color and styles to text that is output in <span class="mc-variable cobaltvariables.ProductName variable">Cobalt Strike</span>'s consoles. The <code>\c</code>, <code>\U</code>, and 
+			<code>\o</code> escapes tell Cobalt Strile how to format text. These escapes are parsed inside of double-quoted strings 
+		only.</p>
+                                                    <p>The <code>\cX</code> escape colors the text that comes after it. X specifies the color. Your color choices are:</p>
+                                                    <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../images/aggressor-scripts/as_colors.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgthumbnail" data-mc-width="899" data-mc-height="56" src="../images/aggressor-scripts/as_colors_thumb_300_0.png" alt="" tabindex="" /></a>
+                                                    </p>
+                                                    <p width="600px" class="figurecount_withhout-div" data-mc-autonum="&lt;b&gt;figure 72 - &lt;/b&gt;"><span class="autonumber"><span><b>figure 72 - </b></span></span>Color Options</p>
+                                                    <p>The <code>\U</code> escape underlines the text that comes after it. A second <code>\U</code> stops the underline format. </p>
+                                                    <p>The <code>\o</code> escape resets the format of the text that comes after it. A newline resets text formatting as well. </p>
+                                                </div>
+                                                <p>
+                                                    <MadCap:pageFooter>
+                                                        <p>&#160;</p>
+                                                        <p class="onlineFooter">Copyright © <span class="mc-variable corpvariables.corp_long variable">Fortra, LLC</span> and its group of companies.<br />All trademarks and registered trademarks are the property of their respective owners.<br /><span class="mc-variable pagelayoutvariables.ProductVersion variable">4.9</span> | <span class="mc-variable corpvariables.doc_version variable">202405210153</span> | <span class="mc-variable pagelayoutvariables.ReleaseDate variable">May 2024</span><br /><br /></p>
+                                                    </MadCap:pageFooter>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
