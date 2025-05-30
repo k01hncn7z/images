@@ -1,0 +1,103 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <script charset="utf-8" src="//g.alicdn.com/mtb/lib-flexible/0.3.2/flexible.js" crossorigin></script>
+    <script charset="utf-8" src="//g.alicdn.com/code/lib/qrcodejs/1.0.0/qrcode.min.js" crossorigin></script>
+    <script charset="utf-8" src="//g.alicdn.com/mtb/lib-windvane/3.0.6/windvane.js" crossorigin></script>
+    <script charset="utf-8" src="//g.alicdn.com/mtb/lib-mtop/2.6.3/mtop.js" crossorigin></script>
+    <script charset="utf-8" src="//g.alicdn.com/secdev/entry/index.js" crossorigin></script>
+    <script charset="utf-8" async src="//g.alicdn.com/bsop-static/sufei-punish/0.1.99/build/htmltocanvas.min.js" crossorigin></script>
+    <link rel="stylesheet" href="//g.alicdn.com/bsop-static/sufei-punish/0.1.99/build/main.css">
+</head>
+
+<body><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&trid=213cc8d617473779634664924e225a&asid=AQAAAAAr3yZou8iXLAAAAADJ4+C88PpCWA==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script>
+
+    <punish-component />
+    <script>
+        window._config_ = {
+            "renderTo": "#nocaptcha",
+            "NCTOKENSTR": "679a26298c184621fc1580270751f6bb",
+            "action": "captcha",
+            "HOST": "www.aliyun.com:443",
+            "PATH": "/notfound",
+            "FORMACTIOIN": "/notfound/_____tmd_____/verify/",
+            "BXSTEP": "100",
+            "SECDATA": "xeaf503d02d0115262679a26298c184621fc1580270751f6bb1747377963a2079290032a1182711318abaac2aaaaa__bx__www.aliyun.com%3A443%2Fnotfound",
+            "NCAPPKEY": "X82Y__80b6e8b9689ae714f47637b803e82c65",
+      		"isUpgrade": "false",
+            "customImage": "",
+            "logo": "",
+            "logoLink": "",
+      		"copyright": "",
+            "noCaptchaCallback": "",
+            "language": "",
+            "languageConfig": "",
+            "url":"/notfound/_____tmd_____/punish?x5secdata=xeaf503d02d0115262679a26298c184621fc1580270751f6bb1747377963a2079290032a1182711318abaac2aaaaa__bx__www.aliyun.com%3A443%2Fnotfound",	
+            "languageConfigJson": "",
+            "noCaptchaLanguage": "",
+      		"js": "",
+      		"css": "",
+      		"crossSite": "0",
+      		"qrcode": "Z5omKYwYRiH8FYAnB1H2uw|aCbfKw|Rn6-Fg_0|BrmjPQ",
+      		"pp": {"enc":"e74f66fbb6d04f1bd09929d2a99128e60440c67dc5ecea64d0eb0b6413a12e3fc695b8e69180eb2b27ec6b27fd665efd","f":"md5","i":0,"k":"qweasdzxcg","l":0,"mt":3000,"q":"a","t":"1747377963467"},
+      		"captchaConfigInfo": "",
+      		"downGradeHttp": false,
+      		"nonce": "2bc3bccc6007934e"
+        };
+    </script>
+<!--rgv587_flag:sm-->
+  	<script>
+      	var ncLanguage = location.search.match(/ncLanguage=([^&]+)/);
+      	ncLanguage = ncLanguage && ncLanguage[1];
+      	if (ncLanguage) {
+      		window._config_.noCaptchaLanguage = ncLanguage;
+      	}
+      	var custom_config = {"templateName":"集团通用处置模板"};
+      	var templateName = "";
+      	if (typeof custom_config === "object") {
+      		templateName = custom_config["templateName"] || "";
+      		window._custom_config_ = window._custom_config_ || {};
+      		for (var key in custom_config) {
+      			window._custom_config_[key] = custom_config[key];
+      		}
+      	}
+      	if (typeof window._custom_config_ === "object" && window._custom_config_.noCaptchaLanguage) {
+      		window._config_.noCaptchaLanguage = window._custom_config_.noCaptchaLanguage;
+    	}
+    </script>
+</body>
+<script charset="utf-8" src="//g.alicdn.com/bsop-static/sufei-punish/0.1.99/build/punishpage.min.js" crossorigin></script>
+<script charset="utf-8" type="text/javascript"
+    src="//g.alicdn.com/trace/trace/1.3.22/??sdk.js,resourceError-plugin.js,perf-plugin.js,blankscreen-plugin.js"
+    crossorigin></script>
+<script type="text/javascript">
+    var tracker = TraceSdk({
+        pid: 'punish-page',
+  		env: 'prod',
+  		plugins: [
+  			[TracePerfPlugin, {enableLCP: false}],
+           	[TraceResourceErrorPlugin],
+  			[BlankScreenPlugin, {detectedDom: ['#baxia-punish'],threshold: 8}]
+  		]
+    });
+    tracker.install();
+  	var urlAction = window.location.href.match(/action=([^&]+)/);
+  	urlAction = urlAction ? urlAction[1] : window._config_.action;
+    tracker.log({
+        code: 11,  // 系统自动生成，请勿修改 100%
+        c1: '679a26298c184621fc1580270751f6bb',
+  		c2: '0.1.99',
+        msg: '新版处置模板 ' + templateName + ' ' + urlAction,  // 异常信息，推荐传入
+        sampling: 0.1,  // 目前采样率为 100.00%
+    });
+</script>
+
+</html>
